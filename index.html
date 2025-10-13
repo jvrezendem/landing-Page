@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projeto – Landing Page (Clone do Figma)</title>
+  <link rel="preload" href="assets/fonts/ProjectFont.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Tela 1: Intro com botão de 'segurar para carregar' -->
+  <main id="intro" class="intro visible" aria-hidden="false">
+    <div class="intro__content">
+      <p class="intro__subtitle">Segure para entrar em uma nova fase...</p>
+
+      <button id="holdButton" class="hold-btn" aria-label="Entrar">
+  <svg class="heart-icon" viewBox="-1 0 26 24" aria-hidden="true">
+    <path fill="#ff007f"
+      d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5
+         2 6 4 4 6.5 4c1.74 0 3.41 1 4.22 2.44
+         C11.09 5 12.76 4 14.5 4
+         17 4 19 6 19 8.5
+         c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+  </svg>
+  <span class="hold-btn__ring" aria-hidden="true"></span>
+</button>
+
+
+      <p class="intro__hint">Das nossas vidas!.</p>
+    </div>
+  </main>
+
+  <!-- Tela 2: Timeline com fotos e eventos -->
+  <section id="timeline" class="timeline" aria-hidden="true">
+    <header class="timeline__header">
+      <button id="backBtn" class="back-btn" aria-label="Voltar para a tela inicial">←</button>
+      <h2 class="timeline__title">Como tudo começou</h2>
+      <p class="timeline__desc">Vamos relembrar tudo desde o início</p>
+    </header>
+
+    <div id="timelineList" class="timeline__list" role="list"></div>
+  </section>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

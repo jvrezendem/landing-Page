@@ -1,0 +1,1 @@
+Coloque aqui as imagens exportadas do Figma. Atualize data/timeline.json com os caminhos corretos.

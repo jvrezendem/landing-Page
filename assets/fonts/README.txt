@@ -1,0 +1,1 @@
+Coloque aqui a fonte exportada do Figma (formato .woff2). Renomeie para ProjectFont.woff2 ou ajuste o @font-face em css/styles.css.
